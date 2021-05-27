@@ -1,7 +1,10 @@
+//program 3
+//To find repeated number in sorted array
+
 import java.util.Scanner;
 class RepeatNo
 {
-public static int repeatedNo(int arr[])
+public static void repeatedNo(int arr[])
 	{
 		int i=0,j=1;
 	while(j<8)
@@ -16,17 +19,18 @@ public static int repeatedNo(int arr[])
 			j=j+1;
 		}
 	}
-	return arr[i];
+	System.out.println(arr[i]);
 	}
 public static void main(String args[])
 	{
-	int[] arr1=new int[101];
+	int[] arr1=new int[10];
 	Scanner sc=new Scanner(System.in);
 	System.out.println("enter array elements-->");
-	for(int i=0;i<101;i++)
+	for(int i=0;i<10;i++)
 	{
 		arr1[i]=sc.nextInt();
 	}
-	System.out.println("repeated number is-->" +repeatedNo(arr1));
+	System.out.println("repeated number is-->");
+	repeatedNo(arr1);
 	}
 }

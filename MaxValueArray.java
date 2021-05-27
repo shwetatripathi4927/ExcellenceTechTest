@@ -1,3 +1,6 @@
+//Program 2
+//To find length of consecutive 1's in a array
+
 import java.util.Scanner;
 class MaxValueArray
 {
@@ -20,6 +23,6 @@ public static int maxOne(int arr[])
 public static void main(String args[])
 	{
 	int[] arr1=new int[]{1,0,1,1,1,0,0,1,1,0,1};
-	System.out.println("max length of 1's-->" +maxOne(arr1));
+	System.out.println("max length of 1's--> " +maxOne(arr1));
 	}
 }
